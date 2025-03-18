@@ -1,8 +1,8 @@
- React E-commerce App
+ # React E-commerce App
 
 This is a simple React-based e-commerce application that fetches products from an API and allows users to add/remove them from a cart. The app uses React Query for data fetching, Zustand for state management, and Tailwind CSS for styling.
 
-Features
+# Features
 
 Fetches products from https://fakestoreapi.com/products
 
@@ -12,13 +12,14 @@ Users can add products to a cart
 
 Users can remove products from the cart
 
- Installation
+# Installation
     
- npm install
+ ``` npm install
 
 npm run dev
+``` 
 
-Dependencies
+ # Dependencies
 
 react-query: For handling API data fetching
 
@@ -26,9 +27,9 @@ zustand: For managing cart state
 
 tailwindcss: For styling
 
-Project Structure
+# Project Structure
 
-react-ecommerce/
+``` react-ecommerce/
 │── src/
 │   ├── App.jsx      # Main App component
 │   ├── index.css    # Tailwind CSS styling
@@ -36,12 +37,13 @@ react-ecommerce/
 │── index.html       # Root HTML file
 │── package.json     # Dependencies and scripts
 │── README.md        # Project documentation
-
-Deployment
+```
+# Deployment
 
 To build for production, run:
 
-npm start run 
+ ```npm start run
+```
 
 u=wite the Then deploy the dist/ folder to your preferred hosting service.
 
